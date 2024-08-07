@@ -9,7 +9,7 @@ import {
       nome: 'Evento Teste',
       descricao: 'Descricao do evento teste',
       data: '2023-01-01',
-      autor_id: 1
+      autorId: 1
     };
   
     it('Deve instanciar um novo evento', () => {
