@@ -27,7 +27,6 @@ describe('GET em /eventos', () => {
         })
     })
     it('Deve retornar erro 404', (done) => {
-        if(process.env.EVENTO_FLAG = 'false') {
           process.env.EVENTO_FLAG = 'false';
           chai.request(app)
           .get('/eventos')
@@ -36,6 +35,6 @@ describe('GET em /eventos', () => {
             expect(res.status).to.equal(404);
             done();
       })  
-        }
-})
-})
+        })
+      })
+      
